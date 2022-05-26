@@ -36,3 +36,22 @@ Strings: Maria, Google, Joao, pedreiro, (seu CPF) -> Basicamente cadeia de carac
 Boolean: True; False ->
 
 ________________________________________________________________________
+Conversão de string para numeros:
+Number.parselnt(n) --- Numero inteiro
+Number.parseFloat(n) --- Numero Real ou quebrado kk
+
+Conversão de Numero para string:
+String(n)
+n.toString()
+_________________________________________________________________________
+Colocar pontos em casas decimais 
+n1
+1541.5
+n1.toFixed(2)
+'1541.50'
+mudar de pontos para virgulas em casas decimais 
+n1.toFixed(2).replace('.', ',')
+'1541,50'
+Colocar valores em $reais
+n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+'R$ 1.541,50'
