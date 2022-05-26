@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual seu nome?')
+        document.write(`Seu nome é ${nome}! <br> `)
+        document.write(`Seu nome em letras maiusculas é ${nome.toUpperCase ()}<br>`)
+        document.write(`Seu nome em letras minusculas é ${nome.toLowerCase ()} <br> `)
+        var valor = window.prompt('Digite o valor que deseja receber')
+        document.write(`Seu salario será de ${valor} <br>`)
+        var animal = window.prompt('Qual animal você deseja criar?')
+        window.confirm(`Você deseja confirmar o animal ${animal}? `)
+        document.write(`Seu bixinho de estimação será ${animal} <br>`)
+        var n1 = Number(window.prompt('Me diga um numero que você deseja somar!'))
+        var n2 = Number(window.prompt('Me diga mais um numero que você deseja somar!'))
+        var soma = n1 + n2
+        window.confirm(`Você confirma a soma desses numeros ${n1}, ${n2}? `)
+        document.write(`A soma dos numeros  ${n1}, ${n2} é <br> ${soma} `)
+
+    </script>
+</body>
+</html>

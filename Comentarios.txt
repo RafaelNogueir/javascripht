@@ -55,3 +55,8 @@ n1.toFixed(2).replace('.', ',')
 Colocar valores em $reais
 n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
 'R$ 1.541,50'
+__________________________________________________________________________
+Deixar letras maiusculas
+.toUpperCase()
+Deixar letras minusculas
+.toLowerCase()
