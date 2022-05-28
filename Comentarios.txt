@@ -60,3 +60,9 @@ Deixar letras maiusculas
 .toUpperCase()
 Deixar letras minusculas
 .toLowerCase()
+__________________________________________________________________________
+Quando tem operadores relacionais, aritimeticos e logicos na mesma expresão ordem de resolução será
+1 aritimeticos
+2 relacionais
+3 logicos
+ ( primeiro o ! depois o && depois o || )
